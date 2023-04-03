@@ -1,0 +1,98 @@
+.accordion {
+    background-color: #ddd;
+    border: none;
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.panel {
+    padding: 0 14px;
+    max-height: 0;
+    overflow: hidden;
+
+}
+
+.active,
+.accordion:hover {
+    background-color: #000;
+    color: #fff;
+    /* transition: background-color 2s ease; */
+}
+
+
+
+
+/* PAGINATION */
+
+.btn {
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.active {
+    background-color: teal;
+    color:#fff;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* #btn {
+    background-color: teal;
+    color: yellow;
+    border: none;
+    outline: none;
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-popup {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    border: 1px solid #f2f2f2;
+    display: none;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 20px;
+    background-color: beige;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    caret-color: red;
+}
+
+.active {
+    display: block;
+} */
